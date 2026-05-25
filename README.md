@@ -1,8 +1,30 @@
-# AI Research Paper Assistant
+## Semantic Research Assistant
+
+# What I Learned Building a RAG System That Every AI Tool Already Does
 
 A free, intelligent document Q&A system that lets you upload any research paper and ask natural-language questions about it. Built with RAG (Retrieval-Augmented Generation), LangChain, FAISS, and Groq's free LLM API.
 
-> Developed by **Nithin Datta Desu** · © 2025
+> Yes, ChatGPT, Claude, and Gemini can already do this.
+> I built it anyway — because using a tool and understanding how it works
+> are two completely different things.
+
+---
+
+## Why I Built This
+
+I wanted to know what actually happens when you upload a document and ask
+a question. How does the system find the right passage? Why does chunking
+matter? What stops the LLM from making things up?
+
+Building this project gave me answers that no tutorial ever could.
+
+**What I set out to learn**
+
+- How the RAG architecture works end to end
+- How text gets transformed into vectors and why that enables semantic search
+- How retrieval quality directly determines answer quality
+- How to connect LangChain, FAISS, Groq, and Streamlit into one working system. just update this part to existing readme
+
 
 ---
 
